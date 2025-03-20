@@ -25,12 +25,12 @@ npm install
 ### 1. Proxy.txt
 在此文件中填入代理IP地址，每行一个，格式如下：
 ```
-http/sock5:ip:端口:用户名:密码
+http/sock5://ip:端口:用户名:密码
 ```
 例如：
 ```
-http/sock5:192.168.1.1:8080:user:pass
-http/sock5:192.168.1.2:8080:user:pass
+http/sock5://192.168.1.1:8080:user:pass
+http/sock5://192.168.1.2:8080:user:pass
 ```
 
 ### 2. wallet.txt
@@ -42,7 +42,7 @@ initia1abcdefghijklmnopqrstuvwxyz123456xyz
 
 ### 3. bot.js（或.env）
 添加您的YesCaptcha API密钥：
-需要购买：https://yescaptcha.com/i/fzK6Vu，购买完拿api使用
+需要购买：https://yescaptcha.com/i/fzK6Vu
 
 ## 使用方法
 配置完成后，运行以下命令启动程序：
