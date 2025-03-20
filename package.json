@@ -1,0 +1,14 @@
+{
+  "name": "initia-faucet-bot",
+  "version": "1.0.0",
+  "description": "自动领取Initia测试网代币的机器人",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "https-proxy-agent": "^7.0.2",
+    "yescaptcha": "^1.0.0"
+  }
+} 
