@@ -10,7 +10,7 @@
 ## 安装步骤
 1. 克隆仓库到本地
 ```bash
-git clone https://github.com/你的用户名/项目名称.git
+git clone https://github.com/sfter/initia-faucet-bot
 cd 项目名称
 ```
 
